@@ -440,7 +440,6 @@ export default function Page() {
                       { name: "C++", logo: "/logos/cpp.png" },
                       { name: "C#", logo: "/logos/csharp.png" },
                       { name: "Node.js", logo: "/logos/nodejs.png" },
-                      { name: "NestJS", logo: "/logos/nestjs.png" },
                     ].map((skill, index) => (
                         <div
                             key={index}
