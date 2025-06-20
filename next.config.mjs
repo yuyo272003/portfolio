@@ -1,11 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Genera HTML/CSS/JS estático en /out
   output: "export",
-  assetPrefix:
-      process.env.NODE_ENV === "production" ? "/portfolio/" : "",
+
+  // Para que Netlify sirva carpetas como index.html
   trailingSlash: true,
-  eslint: { ignoreDuringBuilds: true },
-  typescript: { ignoreBuildErrors: true },
-  images: { unoptimized: true },
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
 }
+
 export default nextConfig
