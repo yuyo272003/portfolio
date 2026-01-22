@@ -11,6 +11,37 @@ export default function Page() {
 
   const projects = [
     {
+      title: "LINA Web",
+      description:
+          "Sistema web que permite a los estudiantes generar órdenes de pago para diferentes tipos de trámites y subir los comprobantes al sistema para ser evaluados por los administrativos.",
+      details:
+          "Este sistema está dirigido a los estudiantes del Programa Educativo de Logística Internacional y Aduanas de la Universidad Veracruzana campus Coatzacoalcos, cuya modalidad es en su totalidad en línea.",
+      image: "/Logo-UV2.jpg",
+      technologies: [
+        { name: "React", logo: "/logos/react.png", color: "bg-cyan-600" },
+        { name: "JavaScript", logo: "/logos/javascript.png", color: "bg-blue-600" },
+        { name: "Figma", logo: "/logos/figma.png", color: "bg-purple-600" },
+        { name: "Node.js", logo: "/logos/nodejs.png", color: "bg-orange-600" },
+      ],
+      github: "https://github.com/Rick-Landa/front-sistema-lina",
+      gradient: "from-pink-600 to-purple-700",
+    },
+    {
+      title: "LINA API",
+      description:
+          "Sistema Backend hecho con laravel para alimentar la logica del Sistema Web de LINA alimetando por la API de Microsoft Entra",
+      details:
+          "Este sistema está dirigido a los estudiantes del Programa Educativo de Logística Internacional y Aduanas de la Universidad Veracruzana campus Coatzacoalcos, cuya modalidad es en su totalidad en línea.",
+      image: "/MSFT-Entra.png",
+      technologies: [
+        { name: "Laravel", logo: "/logos/php.png", color: "bg-blue-600" },
+        { name: "JavaScript", logo: "/logos/javascript.png", color: "bg-blue-600" },
+      ],
+      github: "https://github.com/yuyo272003/lina-api",
+      gradient: "from-pink-600 to-purple-700",
+    },
+
+    {
       title: "ILTAE App",
       description:
           "Aplicación móvil educativa para personas en condición de analfabetismo, desarrollada con React Native y TypeScript.",
@@ -751,7 +782,7 @@ export default function Page() {
                         asChild
                         className="bg-gradient-to-r from-emerald-600 via-teal-700 to-cyan-700 hover:from-emerald-700 hover:via-teal-800 hover:to-cyan-800 text-white shadow-xl hover:shadow-2xl transition-all hover:scale-110 border-0"
                     >
-                      <a href="/CV Julio Gutiérrez Mendoza.pdf" download="CV-Julio-Gutierrez.pdf">
+                      <a href="/CV Julio Gutiérrez Mendoza.pdf" download="CV 2026.pdf">
                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path
                               fillRule="evenodd"
