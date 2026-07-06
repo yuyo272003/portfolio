@@ -782,7 +782,7 @@ export default function Page() {
                         asChild
                         className="bg-gradient-to-r from-emerald-600 via-teal-700 to-cyan-700 hover:from-emerald-700 hover:via-teal-800 hover:to-cyan-800 text-white shadow-xl hover:shadow-2xl transition-all hover:scale-110 border-0"
                     >
-                      <a href="/CV Julio Gutiérrez Mendoza.pdf" download="CV 2026.pdf">
+                      <a href="/CV 2026.pdf" download="CV 2026.pdf">
                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path
                               fillRule="evenodd"
